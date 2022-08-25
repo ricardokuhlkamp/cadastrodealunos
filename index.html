@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>Ficha de Inscrição</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                <p class="menu"><a href="lista.php">Lista</a></p>
+                <h1>Ficha de Inscrição</h1>
+            </header>
+            <div class="container">                
+                <form id="myForm">
+                    <h4>Dados pessoais</h4>
+    
+                    <label form="nome_aluno">Informe o nome do aluno</label><br>
+                    <input type="text" name="nome_aluno" id="nome_aluno" placeholder="nome completo"><br>
+                    <label form="matricula">Informe a matricula do aluno</label><br>
+                    <input type="text" name="matricula" id="matricula" placeholder="matricula"><br>
+                    <label form="data_nascimento">Data de nascimento</label><br>
+                    <input class="data" type="date" name="data_nascimento" id="data_nascimento" ><br>
+                    <label form="email">Informe o e-mail do aluno</label><br>
+                    <input type="email" name="email" id="email" placeholder="email@email.com"><br>
+                    <label form="telefone">Informe o e-mail do aluno</label><br>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXXX-XXXX"><br>
+    
+                    <h4>Endereço</h4>
+    
+                    <label form="logradouro">Logradouro</label><br>
+                    <input type="text" name="logradouro" id="logradouro" placeholder="rua/estrada/avenida/rodovia/etc"><br>
+                    <label form="numero">Numero</label><br>
+                    <input type="number" name="numero" id="numero" placeholder="número"><br>
+                    <label form="complemento">Complemento</label><br>
+                    <input type="text" name="complemento" id="complemento" placeholder="apartamento/fundos/etc"><br>
+                    <label form="bairro">Bairro</label><br>
+                    <input type="text" name="bairro" id="bairro" placeholder="bairro"><br>
+                    <label form="cidade">Cidade</label><br>
+                    <input type="text" name="cidade" id="cidade" placeholder="cidade"><br>
+                    <label form="estado">Estado</label><br>
+                    <input type="text" name="estado" id="estado" placeholder="estado"><br>
+                    <label form="pais">Pais</label><br>
+                    <input type="text" name="pais" id="pais" placeholder="pais"><br>
+    
+                    <button type="submit">Salvar</button>                                                    
+                </form>                             
+            </div>            
+            <script src="script.js"></script>
+        </body>
+    </html>
